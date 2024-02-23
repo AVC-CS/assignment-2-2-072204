@@ -1,10 +1,10 @@
 def main():
     
-    celsius = int(input('Enter your fahrenheit celsius:')) 
+    celsius = int(input('Enter your celsius value:')) 
 
     fahrenheit = 9 / 5 * celsius + 32
 
-    print(f'Celcius: {celsius} \t Fahrenheit: {fahrenheit:.2f}')
+    print(f'{celsius} degrees Celsius is {fahrenheit:.2f} degrees Fahrenheit.')
 
     return celsius, fahrenheit
 
